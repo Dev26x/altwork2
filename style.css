@@ -70,7 +70,7 @@
     margin-top: -150px;
     padding-left: 0;
 
-    & img{
+    & img {
         margin: 0;
         margin-bottom: 50px;
         margin-left: -10px;
@@ -138,9 +138,21 @@
         & select {
             width: 100%;
             height: 50px;
-            padding: 14px 77px 14px 16px;
+            padding: 13.5px 77px 13.5px 16px;
             margin-bottom: 30px;
             font-weight: 300;
+        }
+
+        & div.pwdContainer {
+          position: relative;
+        }
+
+        & .eye{
+          position: absolute;
+          top: 39%;
+          right: 4%;
+          cursor: pointer;
+          color: black;
         }
 
         #submit {
@@ -184,6 +196,9 @@
       margin-bottom: 40px;
       width: 100%;
       
+      & img {
+        margin-bottom: 30px;
+      }
 
       & h1 {
         font-size: 30px;
